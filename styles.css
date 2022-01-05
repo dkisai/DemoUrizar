@@ -1,102 +1,81 @@
 @font-face{
-    font-family: urizarFont;
-    src: url(assets/fonts/Venetian301-Bd-BT-Bold_47607.ttf);
+  font-family: urizarFont;
+  src: url(assets/fonts/Venetian301-Bd-BT-Bold_47607.ttf);
 }
 
 .urizar-txt{
-    font-family: urizarFont;
-    font-size:xx-large;
+  font-family: urizarFont;
+  font-size:xx-large;
 }
 
 .uri-logo{
-    size-adjust:inherit;
+  size-adjust:inherit;
 }
 
 .otro{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size:12px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:12px;
 }
 
 .masthead {
-    position: relative;
-    width: 100%;
-    height: auto;
-    min-height: 35rem;
-    padding: 15rem 0;
-    filter: grayscale(100%) contrast(115%);
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("assets/images/pexels-fauxels-3184292.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size: cover;
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
+  padding: 15rem 0;
+  filter: grayscale(100%) contrast(115%);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("assets/images/pexels-fauxels-3184292.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
   }
-  .masthead h1, .masthead .h1 {
-    font-family: urizarFont;
-    font-size: 2.5rem;
-    line-height: 2.5rem;
-    letter-spacing: 0.8rem;
-    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-            background-clip: text;
-  }
-  .masthead h2, .masthead .h2 {
-    max-width: 20rem;
-    font-size: 1rem;
-  }
-  @media (min-width: 768px) {
-    .masthead h1, .masthead .h1 {
-      font-size: 4rem;
-      line-height: 4rem;
-    }
-  }
-  @media (min-width: 992px) {
-    .masthead {
-      height: 100vh;
-      padding: 0;
-    }
-    .masthead h1, .masthead .h1 {
-      font-size: 6.5rem;
-      line-height: 6.5rem;
-      letter-spacing: 0.8rem;
-    }
-    .masthead h2, .masthead .h2 {
-      max-width: 30rem;
-      font-size: 1.25rem;
-    }
-  }
+.masthead h1, .masthead .h1 {
+  font-family: urizarFont;
+  font-size: 6.5rem;
+  line-height: 6.5rem;
+  letter-spacing: 0.8rem;
+  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+          background-clip: text;
+}
 
-  .about-section {
-    padding-top: 10rem;
-    background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
-  }
-  .about-section p {
-    margin-bottom: 5rem;
-  }
+.masthead h2, .masthead .h2 {
+  max-width: 30rem;
+  font-size: 1.25rem;
+}
+
+.about-section {
+  padding-top: 10rem;
+  background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+}
+.about-section p {
+  margin-bottom: 5rem;
+}
 
 #main .carousel-inner img {
-    max-height: 70vh;
-    object-fit: cover;
-    filter: blur(2px) grayscale(100%) contrast(70%);
+  max-height: 70vh;
+  object-fit: cover;
+  filter: blur(2px) grayscale(100%) contrast(70%);
 }
 
 #carousel {
-    position: relative;
+  position: relative;
 }
 
 #carousel .overlay{
-    z-index: 1;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: rbga(0,0,0,0.5);
-    color: white;
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rbga(0,0,0,0.5);
+  color: white;
 }
 
 #carousel .overlay .container,
 #carousel .overlay .row{
-    height: 100%;
+  height: 100%;
 }
-
